@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/petugas"
+        android:title="Petugas"></item>
+    <item android:id="@+id/penduduk"
+        android:title="Penduduk"></item>
+    <item android:id="@+id/Pengunjung"
+        android:title="Pengunjung"></item>
+</menu>
