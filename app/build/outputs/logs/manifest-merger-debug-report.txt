@@ -149,11 +149,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/arie
 	android:fullBackupContent
 		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:14:9-54
 	android:roundIcon
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:17:9-54
+		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:17:9-59
 	tools:targetApi
 		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:20:9-29
 	android:icon
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:15:9-54
 	android:allowBackup
 		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme

@@ -61,7 +61,7 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
 
-    private DatabaseReference database, totalref;
+    private DatabaseReference database, totalref, total, total1, total2;
     private  int totalvalue = 0;
     SimpleDateFormat tanggal;
     DatePickerDialog tglDialog;
@@ -141,47 +141,9 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
         String tgl = fmtTgl.format(calendar.getTime());
 
         statusdata.setText(tgl);
+
         final SharedPreferences pref = getSharedPreferences("uploadData", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = pref.edit();
-        String nusername = pref.getString("username", null);
-        //Data masuk
-        database.child("DataMasuk").child(nusername).child(tgl).child("masuk").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if (snapshot.exists())
-                {
-                    jammasuk.setText(snapshot.getValue(String.class));
-                }
-                else
-                {
-                    jammasuk.setText("Belum Masuk");
-                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
-        //Data keluar
-        database.child("DataMasuk").child(nusername).child(tgl).child("keluar").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if (snapshot.exists())
-                {
-                    jamkeluar.setText(snapshot.getValue(String.class));
-                }
-                else
-                {
-                    jamkeluar.setText("Belum Keluar");
-                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
 
 
 
@@ -390,6 +352,40 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
                     editor.putString("statuswarganegara", userProfile.statuswarganegara);
                     editor.apply();
 
+
+                    database.child("DataMasuk").child(userProfile.username).child(tgl).child("masuk").addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                            if (snapshot.exists()){
+                                jammasuk.setText(snapshot.getValue(String.class));
+                            }
+                            else {
+                                jammasuk.setText("Belum Masuk");
+                            }
+                        }
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {
+
+                        }
+                    });
+                    database.child("DataMasuk").child(userProfile.username).child(tgl).child("keluar").addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                            if (snapshot.exists()){
+                                jamkeluar.setText(snapshot.getValue(String.class));
+                            }
+                            else {
+                                jamkeluar.setText("Belum Masuk");
+                            }
+                        }
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {
+
+                        }
+                    });
+
                 }
             }
 
@@ -398,6 +394,10 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
                 Toast.makeText(Dashboard.this, "Ada kesalahan laporkan kepada admin", Toast.LENGTH_LONG).show();
             }
         });
+        String nusername = pref.getString("username", null);
+
+
+
     }
 
     private void sdialog() {

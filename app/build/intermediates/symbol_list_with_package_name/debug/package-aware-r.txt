@@ -3386,6 +3386,7 @@ layout zxing_barcode_scanner
 layout zxing_capture
 menu list_user
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw firebase_common_keep
