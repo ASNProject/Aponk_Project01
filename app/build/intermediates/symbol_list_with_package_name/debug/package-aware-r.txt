@@ -2511,6 +2511,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable anak2
 drawable aponk2
 drawable avd_hide_password
 drawable avd_show_password
@@ -2547,6 +2548,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dewasas
 drawable earth
 drawable elderly
 drawable googleg_disabled_color_18
@@ -2563,6 +2565,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable indonesia
+drawable lansias
 drawable lover
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2572,6 +2575,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable man
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2618,6 +2622,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable wanita
+drawable woman
 font ubuntu_bold
 font ubuntu_light
 font ubuntu_regular
@@ -2727,7 +2732,9 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_camera
 id btn_login
+id btn_pengunjung
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2755,6 +2762,7 @@ id chip_group
 id chronometer
 id circle_center
 id clear_text
+id click_image
 id clip_horizontal
 id clip_vertical
 id clockwise
@@ -2792,7 +2800,6 @@ id dash_jumlahwni
 id dash_keluar
 id dash_maps
 id dash_masuk
-id dash_nama
 id dash_status
 id date_picker_actions
 id decelerate
@@ -2882,6 +2889,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageaponk
 id immediateStop
 id included
 id info
@@ -3001,6 +3009,19 @@ id path
 id pathRelative
 id peekHeight
 id penduduk
+id pengujung_alamat
+id pengujung_nama
+id pengujung_spiner1i
+id pengujung_statuswarganegara
+id pengunjung_btn_register
+id pengunjung_instasi
+id pengunjung_jeniskelamin
+id pengunjung_kelompokusia
+id pengunjung_keperluan
+id pengunjung_nik
+id pengunjung_spiner
+id pengunjung_spiner2
+id pengunjung_spiner3
 id percent
 id petugas
 id pin
@@ -3020,6 +3041,22 @@ id reg_kelompokusia
 id reg_nama
 id reg_nik
 id reg_password
+id reg_peg_alamat
+id reg_peg_btn_register
+id reg_peg_email
+id reg_peg_jeniskelamin
+id reg_peg_kelompokusia
+id reg_peg_nama
+id reg_peg_nik
+id reg_peg_nip
+id reg_peg_password
+id reg_peg_spiner
+id reg_peg_spiner2
+id reg_peg_spiner3
+id reg_peg_spiner4
+id reg_peg_statuswarganegara
+id reg_peg_upt
+id reg_peg_username
 id reg_spiner
 id reg_spiner2
 id reg_spiner3
@@ -3126,7 +3163,6 @@ id textView
 id textView2
 id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id text_input_end_icon
@@ -3285,9 +3321,11 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_dashboard
+layout activity_input_pengunjung
 layout activity_login
 layout activity_main
 layout activity_register
+layout activity_register_petugas
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout card_item
@@ -3457,6 +3495,7 @@ string fab_transformation_sheet_behavior
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

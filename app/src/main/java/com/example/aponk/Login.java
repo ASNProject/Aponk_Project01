@@ -1,8 +1,10 @@
 package com.example.aponk;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 //import android.support.v7.app.AppCompatActivity;
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Patterns;
@@ -23,7 +25,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     private FirebaseAuth mAuth;
     private TextView register;
     private EditText email, password;
-    private Button login;
+    private Button login, pengunjung;
     private ProgressBar progressBar;
 
     @Override
@@ -42,16 +44,50 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
         login = (Button) findViewById(R.id.btn_login);
         login.setOnClickListener(this);
+
+        pengunjung = (Button) findViewById(R.id.btn_pengunjung);
+        pengunjung.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.register:
-                startActivity(new Intent(this, Register.class));
+               // startActivity(new Intent(this, Register.class));
+                AlertDialog.Builder alerDialogBuilder = new AlertDialog.Builder(this);
+                alerDialogBuilder.setTitle("Pendaftaran!");
+
+                alerDialogBuilder
+                        .setMessage("Anda ingin mendaftar sebagai ...")
+                        .setIcon(R.mipmap.ic_launcher_foreground)
+                        .setPositiveButton("Petugas", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                startActivity(new Intent(Login.this, Register_Petugas.class));
+                            }
+                        })
+                        .setNegativeButton("Penduduk", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                startActivity(new Intent(Login.this, Register.class));
+                            }
+                        })
+                        .setNeutralButton("Batal", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        });
+
+                AlertDialog alertDialog = alerDialogBuilder.create();
+                alertDialog.show();
                 break;
             case R.id.btn_login:
                 userLogin();
+                break;
+            case R.id.btn_pengunjung:
+                Intent i = new Intent(Login.this, input_Pengunjung.class);
+                startActivity(i);
                 break;
         }
     }

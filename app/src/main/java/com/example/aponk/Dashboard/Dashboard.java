@@ -322,7 +322,7 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
         reference = FirebaseDatabase.getInstance().getReference("Users");
         userID = user.getUid();
 
-        final TextView username = (TextView) findViewById(R.id.dash_nama);
+       // final TextView username = (TextView) findViewById(R.id.dash_nama);
         final TextView username2 = (TextView) findViewById(R.id.dash_NamaData);
 
         reference.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
@@ -332,7 +332,7 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                 if (userProfile != null){
                     String nusername = userProfile.username;
-                    username.setText(nusername);
+                   // username.setText(nusername);
                     String nnama = userProfile.nama;
                     username2.setText(nnama);
 

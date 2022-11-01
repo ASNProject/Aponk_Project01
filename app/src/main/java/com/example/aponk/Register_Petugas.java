@@ -31,7 +31,7 @@ public class Register_Petugas extends AppCompatActivity implements View.OnClickL
     private String[] list = {"-Pilih-", "Laki-Laki", "Perempuan"};
     private String[] list2 = {"-Pilih-", "Anak-anak", "Dewasa", "Lansia"};
     private String[] list3 = {"-Pilih-", "WNI", "WNA"};
-    private String[] list4 = {"-Pilih UPT-", "Lembaga Pemasyarakatan Kelas I Batu Nusakambangan", "Lembaga Pemasyarkatan Kelas IIA", "Lembaga Pemasyarakatan Narkotika Kelas IIA Nusakambangan", "Lembaga Pemasyarakatan Kelas IIA Kembangkuning", "Lembaga Pemasyarakatan Kelas IIA Permisan Nusakambangan", "Lembaga Pemasyarakatan Kelas IIA Pasir Putih Nusakambangan", "Lembaga Pemasyarakatan Khusu Kelas IIA Karanganyar", "Lembaga Pemasyarakatan Terbuka Nusakambangan", "Balai Pemasyarakatan Kelas II Nusakambangan"};
+    private String[] list4 = {"-Pilih UPT-", "Lembaga Pemasyarakatan Kelas I Batu Nusakambangan", "Lembaga Pemasyarkatan Kelas IIA Besi Nusakambangan", "Lembaga Pemasyarakatan Narkotika Kelas IIA Nusakambangan", "Lembaga Pemasyarakatan Kelas IIA Kembangkuning", "Lembaga Pemasyarakatan Kelas IIA Permisan Nusakambangan", "Lembaga Pemasyarakatan Kelas IIA Pasir Putih Nusakambangan", "Lembaga Pemasyarakatan Khusu Kelas IIA Karanganyar", "Lembaga Pemasyarakatan Terbuka Nusakambangan", "Balai Pemasyarakatan Kelas II Nusakambangan"};
 
 
     @Override
@@ -119,7 +119,7 @@ public class Register_Petugas extends AppCompatActivity implements View.OnClickL
                 upt.setText("");
             }
         });
-        ArrayAdapter adapter4 = new ArrayAdapter(this, android.R.layout.simple_list_item_1, list3);
+        ArrayAdapter adapter4 = new ArrayAdapter(this, android.R.layout.simple_list_item_1, list4);
         adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         spiner4.setAdapter(adapter4);
 
@@ -132,7 +132,7 @@ public class Register_Petugas extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.reg_btn_register:
+            case R.id.reg_peg_btn_register:
                 registerUser();
                 break;
         }

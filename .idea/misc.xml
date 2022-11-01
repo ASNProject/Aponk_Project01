@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_input_pengunjung.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.19113861083984376" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1445465087890625" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />

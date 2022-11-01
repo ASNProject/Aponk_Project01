@@ -212,6 +212,22 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
                                         }
                                     }
                                 });
+                        FirebaseDatabase.getInstance().getReference("Users")
+                                .child("Penduduk").child(nusername)
+                                .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()){
+                                            Toast.makeText(Register.this, "Berhasil mendaftar", Toast.LENGTH_LONG).show();
+                                            progressBar.setVisibility(View.GONE);
+                                            finish();
+                                        }
+                                        else {
+                                            Toast.makeText(Register.this, "Gagal mendaftar! Silahkan coba kembali", Toast.LENGTH_LONG).show();
+                                            progressBar.setVisibility(View.GONE);
+                                        }
+                                    }
+                                });
                     }
                     else {
                         Toast.makeText(Register.this, "Gagal mendaftar! silahkan coba lagi!", Toast.LENGTH_LONG).show();
