@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
 
 import android.Manifest;
 import android.content.Context;
@@ -12,11 +13,16 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.BitmapRegionDecoder;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -29,14 +35,21 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.lang.ref.WeakReference;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
@@ -44,8 +57,12 @@ import java.util.Locale;
 public class input_Pengunjung extends AppCompatActivity {
 
     ImageView captureimage;
-    private static final int CAMERA_REQUEST = 100;
+    private static final int CAMERA_REQUEST_CODE = 1;
     Uri imageUri;
+
+    private FirebaseAuth mAuth;
+
+    DatabaseReference database;
 
     private EditText nama, alamat, identitas, keperluan;
     private TextView instansi, kewarganegaraan, jeniskelamin, kelompokusia;
@@ -53,14 +70,25 @@ public class input_Pengunjung extends AppCompatActivity {
     private Spinner spinner, spinner2, spinner3, spinner4;
     private String[] list = {"-Pilih-", "TNI/POLRI", "PNS", "Umum"};
     private String[] list2 = {"-Pilih-", "WNI", "WNA"};
-    private String[] list3 = {"-Pilih-", "Laki-laki", "Perempuan"};
+    private String[] list3 = {"-Pilih-", "Laki-Laki", "Perempuan"};
     private String[] list4 = {"-Pilih-", "Anak-anak", "Dewasa", "Lansia"};
-
-
+    Bitmap photo;
+    StorageReference mStorage;
+    String userId;
+    FirebaseDatabase mDatabase;
+    DatabaseReference ref;
+    private PengunjungUser pengunjungUser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_input_pengunjung);
+
+        mAuth = FirebaseAuth.getInstance();
+
+        mStorage = FirebaseStorage.getInstance().getReference();
+        mDatabase = FirebaseDatabase.getInstance();
+        ref = mDatabase.getReference();
+        database = FirebaseDatabase.getInstance().getReference();
 
         nama = (EditText) findViewById(R.id.pengujung_nama);
         alamat = (EditText) findViewById(R.id.pengujung_alamat);
@@ -71,6 +99,8 @@ public class input_Pengunjung extends AppCompatActivity {
         kewarganegaraan = (TextView) findViewById(R.id.pengujung_statuswarganegara);
         jeniskelamin = (TextView) findViewById(R.id.pengunjung_jeniskelamin);
         kelompokusia = (TextView) findViewById(R.id.pengunjung_kelompokusia);
+
+        pengunjungUser = new PengunjungUser();
 
         spinner = (Spinner) findViewById(R.id.pengujung_spiner1i);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -92,7 +122,7 @@ public class input_Pengunjung extends AppCompatActivity {
         spinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                instansi.setText(list2[position]);
+                kewarganegaraan.setText(list2[position]);
             }
 
             @Override
@@ -150,42 +180,156 @@ public class input_Pengunjung extends AppCompatActivity {
         buttoncamera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+               Intent i = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(i, 100);
+
             }
         });
 
         buttonmasuk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                captureimage.buildDrawingCache();
-                Bitmap bmap = captureimage.getDrawingCache();
+               submit();
+               database.child("hai").setValue("ok");
+               String nnama = nama.getText().toString();
+                String nalamat = alamat.getText().toString();
+                String ninstansi = instansi.getText().toString();
+                String nindentitas = identitas.getText().toString();
+                String nkewarganegaraan = kewarganegaraan.getText().toString();
+                String nkelompokusia = kelompokusia.getText().toString();
+                String njeniskelamin = jeniskelamin.getText().toString();
+                String nkeperluan = keperluan.getText().toString();
 
-                imageUri = getImageUri(getApplicationContext(), bmap);
-                setToFireStore(imageUri);
 
+
+                PengunjungUser pengunjungUser = new PengunjungUser(nnama,nalamat,ninstansi,nindentitas, njeniskelamin,nkelompokusia,nkewarganegaraan,nkeperluan);
+
+
+
+                Calendar calendar = Calendar.getInstance();
+                SimpleDateFormat forday = new SimpleDateFormat("dd");
+                SimpleDateFormat formonth = new SimpleDateFormat("MMMM");
+                SimpleDateFormat foryear = new SimpleDateFormat("yyyy");
+                SimpleDateFormat fmtTgl = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+                SimpleDateFormat fmtJam = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());
+                String day = forday.format(calendar.getTime());
+                String month = formonth.format(calendar.getTime());
+                String year = foryear.format(calendar.getTime());
+                String tgl = fmtTgl.format(calendar.getTime());
+                String jam = fmtJam.format(calendar.getTime());
+
+                database.child("DataHarian").child(year).child(month).child(day).child("Pengunjung").child(nindentitas).setValue(pengunjungUser);
+                database.child("DataHarian").child(year).child(month).child(day).child(njeniskelamin).child(nindentitas).setValue(nnama);
+                database.child("DataHarian").child(year).child(month).child(day).child(nkelompokusia).child(nindentitas).setValue(nnama);
+                database.child("DataHarian").child(year).child(month).child(day).child(nkewarganegaraan).child(nindentitas).setValue(nnama);
+                database.child("DataMasuk").child(nindentitas).child(tgl).child("masuk").setValue(jam.toString());
+               // finish();
+                Toast.makeText(input_Pengunjung.this, "Terimakasih, anda masuk sebagai pengujung", Toast.LENGTH_LONG).show();
+                Intent i = new Intent(input_Pengunjung.this, Login.class);
+                startActivity(i);
+                finish();
+
+            }
+
+        });
+    }
+
+    private void upload(){
+
+
+
+//        PengunjungUser pengunjungUser = new PengunjungUser(nnama, nalamat, ninstansi, nindentitas, njeniskelamin, nkelompokusia,nkewarganegaraan,  nkeperluan);
+
+
+
+         Calendar calendar = Calendar.getInstance();
+          SimpleDateFormat forday = new SimpleDateFormat("dd");
+          SimpleDateFormat formonth = new SimpleDateFormat("MMMM");
+          SimpleDateFormat foryear = new SimpleDateFormat("yyyy");
+          SimpleDateFormat fmtTgl = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+           SimpleDateFormat fmtJam = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());
+           String day = forday.format(calendar.getTime());
+           String month = formonth.format(calendar.getTime());
+          String year = foryear.format(calendar.getTime());
+          String tgl = fmtTgl.format(calendar.getTime());
+
+          FirebaseDatabase databases = FirebaseDatabase.getInstance();
+
+          DatabaseReference myRef = databases.getReference().child("DataHarian").child(year).child(month).child(day);
+
+          //myRef.child("Pengunjung").setValue(pengunjungUser);
+          //myRef.child(njeniskelamin).child(nindentitas).setValue(nnama);
+        //    myRef.child("Pengunjung").setValue(pengunjungUser);
+
+         //nk   Log.i("Main", pengunjungUser.toString());
+
+        //Upload data masuk
+       // database.child("DataMasuk").child(year).child(month).child(day).child("DataMasuk").child(nindentitas).child(tgl).child("masuk").setValue(fmtJam.toString());
+
+    }
+
+    public void submit(){
+
+
+        String nindentitas = identitas.getText().toString().trim();
+
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat forday = new SimpleDateFormat("dd");
+        SimpleDateFormat formonth = new SimpleDateFormat("MMMM");
+        SimpleDateFormat foryear = new SimpleDateFormat("yyyy");
+        SimpleDateFormat fmtTgl = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+        SimpleDateFormat fmtJam = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());
+        String day = forday.format(calendar.getTime());
+        String month = formonth.format(calendar.getTime());
+        String year = foryear.format(calendar.getTime());
+        String tgl = fmtTgl.format(calendar.getTime());
+
+
+        ///IMAGE UPLOAD
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        photo.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+
+        byte[] b = stream.toByteArray();
+        StorageReference storageReference = FirebaseStorage.getInstance().getReference().child("documentImages").child(nindentitas);
+        storageReference.putBytes(b).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+            @Override
+            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+               storageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                   @Override
+                   public void onSuccess(Uri uri) {
+
+
+                       DatabaseReference db = FirebaseDatabase.getInstance().getReference().child("DataHarian").child(year).child(month).child(day);
+                       db.child("Pengunjung").child(nindentitas).child("img").setValue(uri.toString());
+
+
+                   }
+               }).addOnFailureListener(new OnFailureListener() {
+                   @Override
+                   public void onFailure(@NonNull Exception e) {
+
+                   }
+               });
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
 
             }
         });
     }
 
-    private void takeImageFromCamera() {
-        Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        startActivityForResult(cameraIntent, CAMERA_REQUEST);
-    }
-
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == 100){
-            Bitmap photo = (Bitmap) data.getExtras().get("data");
-            captureimage.setImageBitmap(photo);
-           // imageUri = getImageUri(getApplicationContext(), photo);
-           // File finalfile = new File(getRealPathFromURI(imageUri));
-        //    byte[] bitmapBytes = getBytesFromBitmap(bitmap, 100);
-           // setToFireStore(imageUri);
-        }
-    }
+        if(requestCode == 100 && resultCode == RESULT_OK){
 
+            photo = (Bitmap) data.getExtras().get("data");
+            captureimage.setImageBitmap(photo);
+            //submit();
+
+      }
+
+    }
     public Uri getImageUri(Context inContext, Bitmap inImage) {
         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
         inImage.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
@@ -207,74 +351,15 @@ public class input_Pengunjung extends AppCompatActivity {
         return path;
     }
 
-    private void setToFireStore(Uri imageUri){
+    private void setToFireStore(Uri uri){
 
-        String nnama = nama.getText().toString().trim();
-        if (nnama.isEmpty()){
-            nama.setError("Masukkan nama terlebih dahulu");
-            nama.requestFocus();
-            return;
-        }
-        String nalamat = alamat.getText().toString().trim();
-        if (nalamat.isEmpty()){
-            alamat.setError("Isi alamat terlebih dahulu");
-            alamat.requestFocus();
-            return;
-        }
-        String ninstansi = instansi.getText().toString().trim();
-        if (ninstansi.isEmpty()){
-            instansi.setError("Pilih instansi terlebih dahulu");
-            instansi.requestFocus();
-            return;
-        }
-        String nindentitas = instansi.getText().toString().trim();
-        if (nindentitas.isEmpty()){
-            identitas.setError("Masukkan nomor identitas terlebih dahulu");
-            identitas.requestFocus();
-            return;
-        }
-        String nkewarganegaraan = kewarganegaraan.getText().toString().trim();
-        if (nkewarganegaraan.isEmpty()){
-            kewarganegaraan.setError("Pilih kewarganegaraan");
-            kewarganegaraan.requestFocus();
-            return;
-        }
-        String njeniskelamin = jeniskelamin.getText().toString().trim();
-        if (njeniskelamin.isEmpty()){
-            jeniskelamin.setError("Pilih jenis kelamin");
-            jeniskelamin.requestFocus();
-            return;
-        }
-        String nkelompokusia = kelompokusia.getText().toString().trim();
-        if (nkelompokusia.isEmpty()){
-            kelompokusia.setError("Pilih kelompok usia");
-            kelompokusia.requestFocus();
-            return;
-        }
-        String nkeperluan = keperluan.getText().toString().trim();
-        if(nkeperluan.isEmpty()){
-            keperluan.setError("Masukkan keperluan");
-            keperluan.requestFocus();
-            return;
 
-        }
-
-        Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat forday = new SimpleDateFormat("dd");
-        SimpleDateFormat formonth = new SimpleDateFormat("MMMM");
-        SimpleDateFormat foryear = new SimpleDateFormat("yyyy");
-        SimpleDateFormat fmtTgl = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
-        SimpleDateFormat fmtJam = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());
-        String day = forday.format(calendar.getTime());
-        String month = formonth.format(calendar.getTime());
-        String year = foryear.format(calendar.getTime());
-        String tgl = fmtTgl.format(calendar.getTime());
 
 
 
         StorageReference storageReference = FirebaseStorage.getInstance().getReference().child("ImageFolder");
         final StorageReference ImageReference = storageReference.child("112233");
-        ImageReference.putFile(imageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+        ImageReference.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                 ImageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {

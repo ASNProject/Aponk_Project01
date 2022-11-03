@@ -78,6 +78,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="com.google.firebase:firebase-storage:20.1.0@aar"
+      jars="/Users/ariefsetyonugroho/.gradle/caches/transforms-3/546a4bd6aa8270cb9c38b498a9d8e7d0/transformed/jetified-firebase-storage-20.1.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-storage:20.1.0"
+      folder="/Users/ariefsetyonugroho/.gradle/caches/transforms-3/546a4bd6aa8270cb9c38b498a9d8e7d0/transformed/jetified-firebase-storage-20.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="com.google.android.gms:play-services-maps:18.1.0@aar"
       jars="/Users/ariefsetyonugroho/.gradle/caches/transforms-3/8b4013fbd1569e10db1edb9b810b2564/transformed/jetified-play-services-maps-18.1.0/jars/classes.jar"
       resolved="com.google.android.gms:play-services-maps:18.1.0"
@@ -103,6 +116,10 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="com.squareup.picasso:picasso:2.5.2@jar"
+      jars="/Users/ariefsetyonugroho/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+      resolved="com.squareup.picasso:picasso:2.5.2"/>
   <library
       name="com.google.android.gms:play-services-auth-api-phone:17.4.0@aar"
       jars="/Users/ariefsetyonugroho/.gradle/caches/transforms-3/b8dfeaabe975e4f86dbcae0ccb113bdb/transformed/jetified-play-services-auth-api-phone-17.4.0/jars/classes.jar"

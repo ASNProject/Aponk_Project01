@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Register">
+    tools:context=".input_Pengunjung">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/ubuntu_regular"
-                android:text="Nomor Identitas (KTP/SIM)"
+                android:text="Nomor Identitas (KTP/SIM/Pasport)"
                 android:textColor="@color/background"
                 android:textSize="16sp" />
 
@@ -101,6 +101,7 @@
                 android:textSize="16sp" />
 
             <Spinner
+                android:layout_marginTop="5dp"
                 android:id="@+id/pengunjung_spiner3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -120,6 +121,7 @@
                 android:textSize="16sp" />
 
             <Spinner
+                android:layout_marginTop="5dp"
                 android:id="@+id/pengunjung_spiner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -139,6 +141,7 @@
                 android:textSize="16sp" />
 
             <Spinner
+                android:layout_marginTop="5dp"
                 android:id="@+id/pengunjung_spiner2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -159,11 +162,14 @@
                 android:textSize="16sp" />
 
             <EditText
+                android:layout_marginTop="5dp"
                 android:id="@+id/pengunjung_keperluan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Masukkan keperluan"
+                android:background="@drawable/border"
                 android:minLines="5"
+                android:padding="5dp"
                 android:gravity="top|left"
                  />
 
@@ -178,12 +184,14 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_camera_alt_24"
+                android:background="@drawable/border"
                 android:id="@+id/click_image" />
 
             <Button
                 android:id="@+id/pengunjung_btn_register"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"

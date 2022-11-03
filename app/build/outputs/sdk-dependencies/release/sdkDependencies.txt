@@ -872,6 +872,18 @@ library {
 }
 library {
   maven_library {
+    groupId: "com.google.firebase"
+    artifactId: "firebase-storage"
+    version: "20.1.0"
+  }
+  digests {
+    sha256: "\277\213=4\242}\237\363\233\033\215;%\224S&\375\327\201\a\350\367c\006U#\353\006\032\270\020\326"
+  }
+  repo_index {
+  }
+}
+library {
+  maven_library {
     groupId: "com.google.android.gms"
     artifactId: "play-services-maps"
     version: "18.1.0"
@@ -903,6 +915,19 @@ library {
   }
   digests {
     sha256: "\254\37203\214&&{l\253fU\t\302%\033\271n\203P\277\312\330\235Y\271I\272w\001\037\215"
+  }
+  repo_index {
+    value: 1
+  }
+}
+library {
+  maven_library {
+    groupId: "com.squareup.picasso"
+    artifactId: "picasso"
+    version: "2.5.2"
+  }
+  digests {
+    sha256: "#>\030\365\235%\266\257\364u\337\036\001\240f\026w\370\212\36788\242~\262:\242\033\226\243\254n"
   }
   repo_index {
     value: 1
@@ -1340,13 +1365,23 @@ library_dependencies {
 }
 library_dependencies {
   library_index: 72
+  library_dep_index: 2
+  library_dep_index: 51
+  library_dep_index: 53
+  library_dep_index: 61
+  library_dep_index: 55
+  library_dep_index: 57
+  library_dep_index: 58
+}
+library_dependencies {
+  library_index: 73
   library_dep_index: 39
   library_dep_index: 51
   library_dep_index: 52
 }
 library_dependencies {
-  library_index: 73
-  library_dep_index: 74
+  library_index: 74
+  library_dep_index: 75
 }
 module_dependencies {
   module_name: "base"
@@ -1358,6 +1393,8 @@ module_dependencies {
   dependency_index: 63
   dependency_index: 72
   dependency_index: 73
+  dependency_index: 74
+  dependency_index: 76
 }
 repositories {
   maven_repo {

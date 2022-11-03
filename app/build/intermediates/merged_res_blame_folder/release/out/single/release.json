@@ -4,12 +4,80 @@
         "source": "com.example.aponk.app-main-37:/layout/activity_dashboard.xml"
     },
     {
+        "merged": "com.example.aponk.app-merged_res-36:/layout_activity_register_petugas.xml.flat",
+        "source": "com.example.aponk.app-main-37:/layout/activity_register_petugas.xml"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.aponk.app-main-37:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_children.png.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/children.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/layout_activity_register.xml.flat",
+        "source": "com.example.aponk.app-main-37:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_p2.png.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/p2.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/font_ubuntu_bold.ttf.flat",
+        "source": "com.example.aponk.app-main-37:/font/ubuntu_bold.ttf"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_petugas.png.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/petugas.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/drawable-v24_aponk2.png.flat",
+        "source": "com.example.aponk.app-main-37:/drawable-v24/aponk2.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_logo_sembada.png.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/logo_sembada.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aponk.app-main-37:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.aponk.app-main-37:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_lansias.png.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/lansias.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.aponk.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aponk.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_man.png.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/man.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aponk.app-main-37:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "com.example.aponk.app-merged_res-36:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "com.example.aponk.app-main-37:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "com.example.aponk.app-merged_res-36:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "com.example.aponk.app-pngs-31:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_border.xml.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/border.xml"
     },
     {
         "merged": "com.example.aponk.app-merged_res-36:/drawable_indonesia.png.flat",
@@ -24,32 +92,24 @@
         "source": "com.example.aponk.app-main-37:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.aponk.app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.aponk.app-main-37:/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "com.example.aponk.app-merged_res-36:/xml_backup_rules.xml.flat",
         "source": "com.example.aponk.app-main-37:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "com.example.aponk.app-merged_res-36:/drawable_children.png.flat",
-        "source": "com.example.aponk.app-main-37:/drawable/children.png"
     },
     {
         "merged": "com.example.aponk.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "com.example.aponk.app-main-37:/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "com.example.aponk.app-merged_res-36:/xml_provider_path.xml.flat",
+        "source": "com.example.aponk.app-main-37:/xml/provider_path.xml"
+    },
+    {
         "merged": "com.example.aponk.app-merged_res-36:/drawable_p3.png.flat",
         "source": "com.example.aponk.app-main-37:/drawable/p3.png"
     },
     {
-        "merged": "com.example.aponk.app-merged_res-36:/layout_activity_register.xml.flat",
-        "source": "com.example.aponk.app-main-37:/layout/activity_register.xml"
-    },
-    {
-        "merged": "com.example.aponk.app-merged_res-36:/drawable_p2.png.flat",
-        "source": "com.example.aponk.app-main-37:/drawable/p2.png"
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_woman.png.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/woman.png"
     },
     {
         "merged": "com.example.aponk.app-merged_res-36:/drawable_wanita.png.flat",
@@ -64,10 +124,6 @@
         "source": "com.example.aponk.app-main-37:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.aponk.app-merged_res-36:/font_ubuntu_bold.ttf.flat",
-        "source": "com.example.aponk.app-main-37:/font/ubuntu_bold.ttf"
-    },
-    {
         "merged": "com.example.aponk.app-merged_res-36:/drawable_pria.png.flat",
         "source": "com.example.aponk.app-main-37:/drawable/pria.png"
     },
@@ -76,20 +132,20 @@
         "source": "com.example.aponk.app-main-37:/menu/list_user.xml"
     },
     {
-        "merged": "com.example.aponk.app-merged_res-36:/layout_item_data.xml.flat",
-        "source": "com.example.aponk.app-main-37:/layout/item_data.xml"
+        "merged": "com.example.aponk.app-merged_res-36:/layout_activity_input_pengunjung.xml.flat",
+        "source": "com.example.aponk.app-main-37:/layout/activity_input_pengunjung.xml"
     },
     {
-        "merged": "com.example.aponk.app-merged_res-36:/drawable_petugas.png.flat",
-        "source": "com.example.aponk.app-main-37:/drawable/petugas.png"
+        "merged": "com.example.aponk.app-merged_res-36:/layout_item_data.xml.flat",
+        "source": "com.example.aponk.app-main-37:/layout/item_data.xml"
     },
     {
         "merged": "com.example.aponk.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "com.example.aponk.app-main-37:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.aponk.app-merged_res-36:/drawable-v24_aponk2.png.flat",
-        "source": "com.example.aponk.app-main-37:/drawable-v24/aponk2.png"
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_dewasas.png.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/dewasas.png"
     },
     {
         "merged": "com.example.aponk.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -102,10 +158,6 @@
     {
         "merged": "com.example.aponk.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "com.example.aponk.app-main-37:/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.example.aponk.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.aponk.app-main-37:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "com.example.aponk.app-merged_res-36:/drawable-v24_lover.png.flat",
@@ -124,10 +176,6 @@
         "source": "com.example.aponk.app-main-37:/layout/activity_login.xml"
     },
     {
-        "merged": "com.example.aponk.app-merged_res-36:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.aponk.app-main-37:/mipmap-hdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "com.example.aponk.app-merged_res-36:/drawable_rounded_corner.xml.flat",
         "source": "com.example.aponk.app-main-37:/drawable/rounded_corner.xml"
     },
@@ -136,16 +184,16 @@
         "source": "com.example.aponk.app-main-37:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.aponk.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.aponk.app-main-37:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.aponk.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.aponk.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_anak2.png.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/anak2.png"
     },
     {
         "merged": "com.example.aponk.app-merged_res-36:/drawable_p1.png.flat",
         "source": "com.example.aponk.app-main-37:/drawable/p1.png"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/drawable_ic_baseline_camera_alt_24.xml.flat",
+        "source": "com.example.aponk.app-main-37:/drawable/ic_baseline_camera_alt_24.xml"
     },
     {
         "merged": "com.example.aponk.app-merged_res-36:/drawable-v24_elderly.png.flat",
@@ -170,9 +218,5 @@
     {
         "merged": "com.example.aponk.app-merged_res-36:/drawable_pengunjung.png.flat",
         "source": "com.example.aponk.app-main-37:/drawable/pengunjung.png"
-    },
-    {
-        "merged": "com.example.aponk.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.aponk.app-main-37:/mipmap-xxhdpi/ic_launcher_round.png"
     }
 ]

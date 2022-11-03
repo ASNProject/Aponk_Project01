@@ -59,7 +59,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
                 alerDialogBuilder
                         .setMessage("Anda ingin mendaftar sebagai ...")
-                        .setIcon(R.mipmap.ic_launcher_foreground)
+                        .setIcon(R.mipmap.ic_launcher_round)
                         .setPositiveButton("Petugas", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {

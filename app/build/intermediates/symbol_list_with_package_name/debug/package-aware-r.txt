@@ -2515,6 +2515,7 @@ drawable anak2
 drawable aponk2
 drawable avd_hide_password
 drawable avd_show_password
+drawable border
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2553,6 +2554,7 @@ drawable earth
 drawable elderly
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_camera_alt_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -4811,6 +4813,7 @@ styleable zxing_view zxing_scanner_layout
 xml backup_rules
 xml data_extraction_rules
 xml image_share_filepaths
+xml provider_path
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

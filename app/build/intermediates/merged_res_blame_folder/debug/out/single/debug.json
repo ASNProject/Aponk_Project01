@@ -28,6 +28,10 @@
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
@@ -64,12 +68,16 @@
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable/lansias.png"
     },
     {
-        "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/drawable_petugas.png.flat",
-        "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable/petugas.png"
+        "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/drawable_border.xml.flat",
+        "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable/border.xml"
     },
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/layout_item_data.xml.flat",
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/layout/item_data.xml"
+    },
+    {
+        "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/drawable_petugas.png.flat",
+        "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable/petugas.png"
     },
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/layout_card_item.xml.flat",
@@ -96,6 +104,10 @@
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/layout/activity_register_petugas.xml"
     },
     {
+        "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/xml_provider_path.xml.flat",
+        "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/xml/provider_path.xml"
+    },
+    {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/drawable_woman.png.flat",
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable/woman.png"
     },
@@ -106,6 +118,10 @@
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/drawable_p3.png.flat",
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable/p3.png"
+    },
+    {
+        "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/drawable_ic_baseline_camera_alt_24.xml.flat",
+        "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable/ic_baseline_camera_alt_24.xml"
     },
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/layout_activity_input_pengunjung.xml.flat",
@@ -174,6 +190,10 @@
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/menu_list_user.xml.flat",
