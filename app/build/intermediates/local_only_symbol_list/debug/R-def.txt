@@ -20,6 +20,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable indonesia
 drawable lansias
+drawable logo_sembada
 drawable lover
 drawable man
 drawable p1
@@ -63,6 +64,7 @@ id dash_masuk
 id dash_status
 id horizontalScrollView2
 id imageView
+id imageView2
 id imageaponk
 id jumlah_lansia
 id linearLayout
@@ -71,6 +73,12 @@ id linearLayout3
 id linearLayout5
 id login_email
 id login_password
+id pancingandatapendudukkeluar
+id pancingandatapendudukmasuk
+id pancingandatapengunjungkeluar
+id pancingandatapengunjungmasuk
+id pancingandatapetugaskeluar
+id pancingandatapetugasmasuk
 id penduduk
 id pengujung_alamat
 id pengujung_nama

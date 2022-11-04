@@ -112,7 +112,7 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
             @Override
             public void onClick(View v) {
                 btnKeluar();
-                sdialog();
+               // sdialog();
             }
         });
 
@@ -322,7 +322,7 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
         reference = FirebaseDatabase.getInstance().getReference("Users");
         userID = user.getUid();
 
-       // final TextView username = (TextView) findViewById(R.id.dash_nama);
+        // final TextView username = (TextView) findViewById(R.id.dash_nama);
         final TextView username2 = (TextView) findViewById(R.id.dash_NamaData);
 
         reference.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
@@ -332,14 +332,14 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                 if (userProfile != null){
                     String nusername = userProfile.username;
-                   // username.setText(nusername);
+                    // username.setText(nusername);
                     String nnama = userProfile.nama;
                     username2.setText(nnama);
 
 
                     final SharedPreferences pref = getSharedPreferences("uploadData", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor = pref.edit();
-                   // Toast.makeText(Dashboard.this, "Anda masuk sebagai " + userProfile.nama, Toast.LENGTH_LONG).show();
+                    // Toast.makeText(Dashboard.this, "Anda masuk sebagai " + userProfile.nama, Toast.LENGTH_LONG).show();
 
 
                     editor.putString("nama", userProfile.nama);
@@ -428,6 +428,7 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
     }
 
     private void btnKeluar() {
+        scanCode2();
         final SharedPreferences pref = getSharedPreferences("uploadData", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = pref.edit();
         String nusername = pref.getString("username", null);
@@ -500,7 +501,7 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                     database.child("DataHarian").child(year).child(month).child(day).child(result.getContents())
                             .push().child("username")
-                                    .setValue(user);
+                            .setValue(user);
                     database.child("DataHarian").child(year).child(month).child(day).child(njeniskelamin).push().child("username").setValue(user);
                     database.child("DataHarian").child(year).child(month).child(day).child(nkelumpokusia).push().child("username").setValue(user);
                     database.child("DataHarian").child(year).child(month).child(day).child(nstatuswarnanegara).push().child("username").setValue(user);
@@ -512,6 +513,73 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
             }).show();
         }
     });
+
+
+    private void scanCode2() {
+        ScanOptions options = new ScanOptions();
+        options.setPrompt("Tekan volume atas untuk menyalakan flash");
+        options.setBeepEnabled(true);
+        options.setOrientationLocked(true);
+        options.setCaptureActivity(CaptureAct.class);
+        barLauncher2.launch(options);
+    }
+
+    ActivityResultLauncher<ScanOptions> barLauncher2 = registerForActivityResult(new ScanContract(), result -> {
+
+        if(result.getContents() !=null)
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(Dashboard.this);
+            builder.setTitle("Hasil");
+            builder.setMessage("Anda akan keluar sebagai " + result.getContents());
+            builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    sharedPreferences = getSharedPreferences("uploadData", Context.MODE_PRIVATE);
+
+                    Toast.makeText(Dashboard.this, "Anda keluar sebagai " + result.getContents(), Toast.LENGTH_LONG).show();
+                    database = FirebaseDatabase.getInstance().getReference();
+                    FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
+                    Calendar calendar = Calendar.getInstance();
+                    SimpleDateFormat forday = new SimpleDateFormat("dd");
+                    SimpleDateFormat formonth = new SimpleDateFormat("MMMM");
+                    SimpleDateFormat foryear = new SimpleDateFormat("yyyy");
+                    SimpleDateFormat fmtTgl = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+                    SimpleDateFormat fmtJam = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());
+                    String day = forday.format(calendar.getTime());
+                    String month = formonth.format(calendar.getTime());
+                    String year = foryear.format(calendar.getTime());
+                    String tgl = fmtTgl.format(calendar.getTime());
+                    String jam = fmtJam.format(calendar.getTime());
+
+                    final SharedPreferences pref = getSharedPreferences("uploadData", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = pref.edit();
+
+                    String nnama = pref.getString("username", null);
+                    String nnik = pref.getString("nik", null);
+                    String nusername = pref.getString("username", null);
+                    String nemail = pref.getString("email", null);
+                    String nalamat = pref.getString("ualamat", null);
+                    String njeniskelamin = pref.getString("jeniskelamin", null);
+                    String nkelumpokusia = pref.getString("kelompokusia", null);
+                    String nstatuswarnanegara = pref.getString("statuswarganegara", null);
+                    User user = new User(nnama, nnik, nusername, nemail, nalamat, njeniskelamin, nkelumpokusia, nstatuswarnanegara);
+
+                    database.child("DataKeluar").child(year).child(month).child(day).child(result.getContents())
+                            .push().child("username")
+                            .setValue(user);
+                    //database.child("DataHarian").child(year).child(month).child(day).child(njeniskelamin).push().child("username").setValue(user);
+                   // database.child("DataHarian").child(year).child(month).child(day).child(nkelumpokusia).push().child("username").setValue(user);
+                   // database.child("DataHarian").child(year).child(month).child(day).child(nstatuswarnanegara).push().child("username").setValue(user);
+                   // database.child("DataMasuk").child(nusername).child(tgl).child("masuk").setValue(jam);
+
+
+                    dialog.dismiss();
+                }
+            }).show();
+        }
+    });
+
+
 
 
 

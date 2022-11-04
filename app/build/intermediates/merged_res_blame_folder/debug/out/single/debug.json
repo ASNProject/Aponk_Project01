@@ -1,11 +1,19 @@
 [
     {
+        "merged": "com.example.aponk.app-merged_res-36:/layout_activity_dashboard.xml.flat",
+        "source": "com.example.aponk.app-main-38:/layout/activity_dashboard.xml"
+    },
+    {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/layout_activity_dashboard.xml.flat",
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.aponk.app-merged_res-36:/layout_activity_register_petugas.xml.flat",
+        "source": "com.example.aponk.app-main-38:/layout/activity_register_petugas.xml"
     },
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -44,6 +52,10 @@
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable/penduduk.png"
     },
     {
+        "merged": "com.example.aponk.app-merged_res-36:/layout_activity_register.xml.flat",
+        "source": "com.example.aponk.app-main-38:/layout/activity_register.xml"
+    },
+    {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/mipmap-xhdpi/ic_launcher_round.png"
     },
@@ -62,6 +74,10 @@
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/drawable_rounded_corner.xml.flat",
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable/rounded_corner.xml"
+    },
+    {
+        "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/drawable_logo_sembada.png.flat",
+        "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable/logo_sembada.png"
     },
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/drawable_lansias.png.flat",
@@ -162,10 +178,6 @@
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/drawable-v24_lover.png.flat",
         "source": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-main-38:/drawable-v24/lover.png"
-    },
-    {
-        "merged": "com.example.aponk.app-merged_res-36:/layout_activity_input_pengunjung.xml.flat",
-        "source": "com.example.aponk.app-main-38:/layout/activity_input_pengunjung.xml"
     },
     {
         "merged": "/Users/ariefsetyonugroho/.gradle/daemon/7.3.3/com.example.aponk.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",

@@ -2568,6 +2568,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable indonesia
 drawable lansias
+drawable logo_sembada
 drawable lover
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2891,6 +2892,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imageaponk
 id immediateStop
 id included
@@ -3001,6 +3003,12 @@ id outline
 id outward
 id overshoot
 id packed
+id pancingandatapendudukkeluar
+id pancingandatapendudukmasuk
+id pancingandatapengunjungkeluar
+id pancingandatapengunjungmasuk
+id pancingandatapetugaskeluar
+id pancingandatapetugasmasuk
 id parallax
 id parent
 id parentPanel
