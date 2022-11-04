@@ -3,6 +3,9 @@ package com.example.aponk;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -237,7 +240,7 @@ public class Register_Petugas extends AppCompatActivity implements View.OnClickL
                                             if (task.isSuccessful()){
                                                 Toast.makeText(Register_Petugas.this, "Berhasil mendaftar", Toast.LENGTH_LONG).show();
                                                 progressBar.setVisibility(View.GONE);
-                                                finish();
+                                                showDialog();
                                             }
                                             else {
                                                 Toast.makeText(Register_Petugas.this, "Gagal mendaftar! Silahkan coba kembali", Toast.LENGTH_LONG).show();
@@ -250,13 +253,11 @@ public class Register_Petugas extends AppCompatActivity implements View.OnClickL
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
                                             if (task.isSuccessful()){
-                                                Toast.makeText(Register_Petugas.this, "Berhasil mendaftar", Toast.LENGTH_LONG).show();
-                                                progressBar.setVisibility(View.GONE);
-                                                finish();
+
+
                                             }
                                             else {
-                                                Toast.makeText(Register_Petugas.this, "Gagal mendaftar! Silahkan coba kembali", Toast.LENGTH_LONG).show();
-                                                progressBar.setVisibility(View.GONE);
+
                                             }
                                         }
                                     });
@@ -269,5 +270,33 @@ public class Register_Petugas extends AppCompatActivity implements View.OnClickL
                 });
 
 
+    }
+
+    private void showDialog(){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+                this);
+
+        // set title dialog
+        alertDialogBuilder.setTitle("Terimakasih sudah mendaftar");
+
+        // set pesan dari dialog
+        alertDialogBuilder
+                .setMessage("Kembali ke halaman login?")
+                .setIcon(R.mipmap.ic_launcher)
+                .setCancelable(false)
+                .setPositiveButton("Ya",new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog,int id) {
+                        // jika tombol diklik, maka akan menutup activity ini
+                        Intent i = new Intent(Register_Petugas.this, Login.class);
+                        startActivity(i);
+                        finish();
+                    }
+                });
+
+        // membuat alert dialog dari builder
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // menampilkan alert dialog
+        alertDialog.show();
     }
 }
