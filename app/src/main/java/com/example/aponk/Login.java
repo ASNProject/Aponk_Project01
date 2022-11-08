@@ -86,11 +86,36 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 userLogin();
                 break;
             case R.id.btn_pengunjung:
-                Intent i = new Intent(Login.this, input_Pengunjung.class);
-                startActivity(i);
+                AlertDialog.Builder alertDialogBulder1 = new AlertDialog.Builder(this);
+                alertDialogBulder1.setTitle("Pendataan pengunjung");
+                alertDialogBulder1
+                        .setMessage("Anda akan masuk atau keluar?")
+                        .setIcon(R.mipmap.ic_launcher_round)
+                        .setPositiveButton("Masuk", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent i = new Intent(Login.this, input_Pengunjung.class);
+                                startActivity(i);
+                            }
+                        })
+                        .setNegativeButton("Keluar", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent i = new Intent(Login.this, Keluar_Pengunjung.class);
+                                startActivity(i);
+                            }
+                        }).setNeutralButton("Batal", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        });
+                AlertDialog alertDialog1 = alertDialogBulder1.create();
+                alertDialog1.show();
                 break;
         }
     }
+
 
     private void userLogin() {
         String nemail = email.getText().toString().trim();

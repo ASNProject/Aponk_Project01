@@ -200,11 +200,7 @@ public class input_Pengunjung extends AppCompatActivity {
                 String njeniskelamin = jeniskelamin.getText().toString();
                 String nkeperluan = keperluan.getText().toString();
 
-
-
                 PengunjungUser pengunjungUser = new PengunjungUser(nnama,nalamat,ninstansi,nindentitas, njeniskelamin,nkelompokusia,nkewarganegaraan,nkeperluan);
-
-
 
                 Calendar calendar = Calendar.getInstance();
                 SimpleDateFormat forday = new SimpleDateFormat("dd");
@@ -223,6 +219,7 @@ public class input_Pengunjung extends AppCompatActivity {
                 database.child("DataHarian").child(year).child(month).child(day).child(nkelompokusia).child(nindentitas).setValue(nnama);
                 database.child("DataHarian").child(year).child(month).child(day).child(nkewarganegaraan).child(nindentitas).setValue(nnama);
                 database.child("DataMasuk").child(nindentitas).child(tgl).child("masuk").setValue(jam.toString());
+                database.child("Users").child("DataPengunjung").child(nindentitas).setValue(pengunjungUser);
                // finish();
                 Toast.makeText(input_Pengunjung.this, "Terimakasih, anda masuk sebagai pengujung", Toast.LENGTH_LONG).show();
                 Intent i = new Intent(input_Pengunjung.this, Login.class);
