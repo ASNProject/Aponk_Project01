@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context="com.sembada.aponk.Login">
 
     <TextView
         android:id="@+id/textView"
@@ -175,7 +175,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="@drawable/rounded_corner"
-        android:text="Masuk sebagai Pengunjung"
+        android:text="Pengunjung"
         android:padding="10dp"
         android:textColor="@color/white"
         android:fontFamily="@font/ubuntu_bold"

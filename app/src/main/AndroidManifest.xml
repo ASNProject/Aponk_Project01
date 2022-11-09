@@ -24,13 +24,13 @@
         android:theme="@style/Theme.Aponk"
         tools:targetApi="31">
         <activity
-            android:name=".Keluar_Pengunjung"
+            android:name="com.sembada.aponk.Keluar_Pengunjung"
             android:exported="false" />
         <activity
-            android:name=".input_Pengunjung"
+            android:name="com.sembada.aponk.input_Pengunjung"
             android:exported="false" />
         <activity
-            android:name=".Register_Petugas"
+            android:name="com.sembada.aponk.Register_Petugas"
             android:exported="false" />
 
         <provider
@@ -48,16 +48,16 @@
             android:value="@string/map_key" />
 
         <activity
-            android:name=".Dashboard.Dashboard"
+            android:name="com.sembada.aponk.Dashboard.Dashboard"
             android:exported="false" />
         <activity
-            android:name=".Register"
+            android:name="com.sembada.aponk.Register"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name="com.sembada.aponk.Login"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.sembada.aponk.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -66,7 +66,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Dashboard.CaptureAct"
+            android:name="com.sembada.aponk.Dashboard.CaptureAct"
             android:screenOrientation="portrait"
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme" />

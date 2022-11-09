@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Keluar_Pengunjung">
+    tools:context="com.sembada.aponk.Keluar_Pengunjung">
 
     <ImageView
         android:layout_width="100dp"

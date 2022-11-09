@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:32:9-40:20
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:36:9-44:20
 	android:grantUriPermissions
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:36:13-47
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:40:13-47
 	android:authorities
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:33:13-60
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:38:13-60
 	android:exported
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:35:13-37
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:34:13-62
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:37:13-62
 manifest
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:2:1-71:12
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:2:1-75:12
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:2:1-75:12
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:2:1-75:12
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:2:1-75:12
 MERGED from [com.google.android.material:material:1.6.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/3e4a1bd92ac3e94e06d1be817a78b0ba/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/efed057666d96370a0c8772909e812ad/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/e9ba40a60b83e733d8e0b71932ccf4ce/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
@@ -71,27 +71,27 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ariefsetyonugroho/
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/b613636c2cdb56131e5d36b066321b78/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/f0e82b0d7634eee621ecfa03821e1412/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/b1444217b235776bfe6ca80940418b6f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:2:1-75:12
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:2:1-75:12
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:2:1-75:12
 	package
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:4:5-32
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:2:1-71:12
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:2:1-75:12
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:2:1-71:12
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:2:1-75:12
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:6:5-67
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:6:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/140de4f3feca5f64b7f41e971d448168/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:25:5-67
@@ -101,43 +101,43 @@ MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/ariefsetyonugro
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/8b4013fbd1569e10db1edb9b810b2564/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/8b4013fbd1569e10db1edb9b810b2564/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:7:5-79
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:7:22-76
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:8:5-81
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:8:22-78
 uses-permission#android.permission.CAMERA
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:9:5-65
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:9:5-65
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:9:22-62
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:9:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:10:5-80
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:10:22-77
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:10:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:11:5-81
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:11:22-78
 uses-feature#android.hardware.camera
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:12:5-60
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:13:5-60
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:12:19-57
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:13:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:13:5-70
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:14:5-70
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:13:19-67
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:14:19-67
 application
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:15:5-69:19
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:16:5-73:19
 MERGED from [com.google.android.material:material:1.6.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/3e4a1bd92ac3e94e06d1be817a78b0ba/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/3e4a1bd92ac3e94e06d1be817a78b0ba/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/efed057666d96370a0c8772909e812ad/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -179,89 +179,95 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/arie
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/95858cfcc7dd6d0ee59b1ab628998b3e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:22:9-35
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:21:9-41
 	android:fullBackupContent
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:18:9-54
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:19:9-54
 	android:roundIcon
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:21:9-54
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:22:9-54
 	tools:targetApi
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:24:9-29
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:25:9-29
 	android:icon
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:19:9-49
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:20:9-49
 	android:allowBackup
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:23:9-43
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:24:9-43
 	android:dataExtractionRules
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:17:9-65
-activity#com.example.aponk.input_Pengunjung
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:25:9-27:40
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:18:9-65
+activity#com.sembada.aponk.Keluar_Pengunjung
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:26:9-28:40
 	android:exported
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:27:13-37
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:26:13-45
-activity#com.example.aponk.Register_Petugas
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:28:9-30:40
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:27:13-63
+activity#com.sembada.aponk.input_Pengunjung
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:30:13-37
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:29:13-45
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:30:13-62
+activity#com.sembada.aponk.Register_Petugas
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:33:13-62
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:42:9-44:47
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:46:9-48:47
 	android:value
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:44:13-44
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:48:13-44
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:43:13-58
-activity#com.example.aponk.Dashboard.Dashboard
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:46:9-48:40
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:47:13-58
+activity#com.sembada.aponk.Dashboard.Dashboard
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:48:13-37
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:47:13-48
-activity#com.example.aponk.Register
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:49:9-51:40
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:51:13-65
+activity#com.sembada.aponk.Register
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:53:9-55:40
 	android:exported
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:51:13-37
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:50:13-37
-activity#com.example.aponk.Login
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:52:9-54:40
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:54:13-54
+activity#com.sembada.aponk.Login
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:56:9-58:40
 	android:exported
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:54:13-37
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:53:13-34
-activity#com.example.aponk.MainActivity
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:55:9-63:20
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:57:13-51
+activity#com.sembada.aponk.MainActivity
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:59:9-67:20
 	android:exported
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:57:13-36
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:61:13-36
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:56:13-41
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:60:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:58:13-62:29
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:62:13-66:29
 action#android.intent.action.MAIN
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:59:17-69
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:63:17-69
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:59:25-66
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:63:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:61:17-77
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:65:17-77
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:61:27-74
-activity#com.example.aponk.Dashboard.CaptureAct
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:64:9-68:57
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:65:27-74
+activity#com.sembada.aponk.Dashboard.CaptureAct
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:68:9-72:57
 	android:screenOrientation
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:66:13-49
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:70:13-49
 	android:stateNotNeeded
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:67:13-42
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:71:13-42
 	android:theme
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:68:13-54
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:72:13-54
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:65:13-49
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:69:13-66
 uses-sdk
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.6.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/3e4a1bd92ac3e94e06d1be817a78b0ba/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.6.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/3e4a1bd92ac3e94e06d1be817a78b0ba/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/efed057666d96370a0c8772909e812ad/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
@@ -374,22 +380,22 @@ MERGED from [androidx.print:print:1.0.0] /Users/ariefsetyonugroho/.gradle/caches
 MERGED from [androidx.print:print:1.0.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/f0e82b0d7634eee621ecfa03821e1412/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/b1444217b235776bfe6ca80940418b6f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/b1444217b235776bfe6ca80940418b6f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:37:13-39:56
+ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:41:13-43:57
 	android:resource
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:39:17-54
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:43:17-54
 	android:name
-		ADDED from /Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:38:17-67
+		ADDED from /Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:42:17-67
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/140de4f3feca5f64b7f41e971d448168/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:24:5-79

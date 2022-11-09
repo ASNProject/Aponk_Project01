@@ -2725,6 +2725,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bnt_keluar
 id bottom
 id bounce
 id bounceBoth
@@ -2904,6 +2905,7 @@ id item_touch_helper_previous_elevation
 id jumlah_lansia
 id jumpToEnd
 id jumpToStart
+id keluar_noidentitas
 id labeled
 id layout
 id left
@@ -3173,6 +3175,7 @@ id textView
 id textView2
 id textView3
 id textView4
+id textView5
 id textView6
 id textView7
 id text_input_end_icon
@@ -3332,6 +3335,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_dashboard
 layout activity_input_pengunjung
+layout activity_keluar_pengunjung
 layout activity_login
 layout activity_main
 layout activity_register

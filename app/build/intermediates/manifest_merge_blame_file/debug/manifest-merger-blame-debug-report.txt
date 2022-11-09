@@ -6,35 +6,35 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
+8-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml
+9-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:6:5-67
-11-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:6:22-64
+11-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:7:5-79
-12-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:7:22-76
+12-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:7:22-76
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:8:5-81
-13-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:8:22-78
+13-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:8:5-81
+13-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:8:22-78
 14    <uses-permission android:name="android.permission.CAMERA" />
-14-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:9:5-65
-14-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:9:22-62
+14-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:9:5-65
+14-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:9:22-62
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:10:5-80
-15-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:10:22-77
+15-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:10:5-80
+15-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:10:22-77
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:11:5-81
-16-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:11:22-78
+16-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:11:5-81
+16-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:11:22-78
 17
 18    <uses-feature android:name="android.hardware.camera" />
-18-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:12:5-60
-18-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:12:19-57
+18-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:13:5-60
+18-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:13:19-57
 19    <uses-feature android:name="android.hardware.camera.autofocus" />
-19-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:13:5-70
-19-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:13:19-67
+19-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:14:5-70
+19-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:14:19-67
 20
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 21-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
@@ -82,279 +82,285 @@
 44-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
 45
 46    <application
-46-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:15:5-69:19
+46-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:16:5-73:19
 47        android:allowBackup="true"
-47-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:16:9-35
+47-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:17:9-35
 48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 48-->[androidx.core:core:1.8.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/95858cfcc7dd6d0ee59b1ab628998b3e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 49        android:dataExtractionRules="@xml/data_extraction_rules"
-49-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:17:9-65
+49-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:18:9-65
 50        android:debuggable="true"
 51        android:fullBackupContent="@xml/backup_rules"
-51-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:18:9-54
+51-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:19:9-54
 52        android:icon="@mipmap/ic_launcher_round"
-52-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:19:9-49
+52-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:20:9-49
 53        android:label="@string/app_name"
-53-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:20:9-41
+53-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:21:9-41
 54        android:roundIcon="@mipmap/ic_launcher_round"
-54-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:21:9-54
+54-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:22:9-54
 55        android:supportsRtl="true"
-55-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:22:9-35
+55-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:23:9-35
 56        android:testOnly="true"
 57        android:theme="@style/Theme.Aponk" >
-57-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:23:9-43
+57-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:24:9-43
 58        <activity
-58-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:25:9-27:40
-59            android:name="com.example.aponk.input_Pengunjung"
-59-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:26:13-45
+58-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:26:9-28:40
+59            android:name="com.sembada.aponk.Keluar_Pengunjung"
+59-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:27:13-63
 60            android:exported="false" />
-60-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:27:13-37
+60-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:28:13-37
 61        <activity
-61-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:28:9-30:40
-62            android:name="com.example.aponk.Register_Petugas"
-62-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:29:13-45
+61-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:29:9-31:40
+62            android:name="com.sembada.aponk.input_Pengunjung"
+62-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:30:13-62
 63            android:exported="false" />
-63-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:30:13-37
-64
-65        <provider
-66            android:name="androidx.core.content.FileProvider"
-66-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:34:13-62
-67            android:authorities="com.example.aponk.provider"
-67-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:33:13-60
-68            android:exported="false"
-68-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:35:13-37
-69            android:grantUriPermissions="true" >
-69-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:36:13-47
-70            <meta-data
-70-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:37:13-39:56
-71                android:name="android.support.FILE_PROVIDER_PATHS"
-71-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:38:17-67
-72                android:resource="@xml/provider_path" />
-72-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:39:17-54
-73        </provider>
-74
-75        <meta-data
-75-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:42:9-44:47
-76            android:name="com.google.android.geo.API_KEY"
-76-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:43:13-58
-77            android:value="@string/map_key" />
-77-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:44:13-44
-78
-79        <activity
-79-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:46:9-48:40
-80            android:name="com.example.aponk.Dashboard.Dashboard"
-80-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:47:13-48
-81            android:exported="false" />
-81-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:48:13-37
+63-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:31:13-37
+64        <activity
+64-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:32:9-34:40
+65            android:name="com.sembada.aponk.Register_Petugas"
+65-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:33:13-62
+66            android:exported="false" />
+66-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:34:13-37
+67
+68        <provider
+69            android:name="androidx.core.content.FileProvider"
+69-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:37:13-62
+70            android:authorities="com.example.aponk.provider"
+70-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:38:13-60
+71            android:exported="false"
+71-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:39:13-37
+72            android:grantUriPermissions="true" >
+72-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:40:13-47
+73            <meta-data
+73-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:41:13-43:57
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:42:17-67
+75                android:resource="@xml/provider_path" />
+75-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:43:17-54
+76        </provider>
+77
+78        <meta-data
+78-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:46:9-48:47
+79            android:name="com.google.android.geo.API_KEY"
+79-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:47:13-58
+80            android:value="@string/map_key" />
+80-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:48:13-44
+81
 82        <activity
-82-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:49:9-51:40
-83            android:name="com.example.aponk.Register"
-83-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:50:13-37
+82-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:50:9-52:40
+83            android:name="com.sembada.aponk.Dashboard.Dashboard"
+83-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:51:13-65
 84            android:exported="false" />
-84-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:51:13-37
+84-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:52:13-37
 85        <activity
-85-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:52:9-54:40
-86            android:name="com.example.aponk.Login"
-86-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:53:13-34
+85-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:53:9-55:40
+86            android:name="com.sembada.aponk.Register"
+86-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:54:13-54
 87            android:exported="false" />
-87-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:54:13-37
+87-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:55:13-37
 88        <activity
-88-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:55:9-63:20
-89            android:name="com.example.aponk.MainActivity"
-89-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:56:13-41
-90            android:exported="true" >
-90-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:57:13-36
-91            <intent-filter>
-91-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:58:13-62:29
-92                <action android:name="android.intent.action.MAIN" />
-92-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:59:17-69
-92-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:59:25-66
-93
-94                <category android:name="android.intent.category.LAUNCHER" />
-94-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:61:17-77
-94-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:61:27-74
-95            </intent-filter>
-96        </activity>
-97        <activity
-97-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:64:9-68:57
-98            android:name="com.example.aponk.Dashboard.CaptureAct"
-98-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:65:13-49
-99            android:screenOrientation="portrait"
-99-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:66:13-49
-100            android:stateNotNeeded="true"
-100-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:67:13-42
-101            android:theme="@style/zxing_CaptureTheme" />
-101-->/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/src/main/AndroidManifest.xml:68:13-54
-102        <activity
-102-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
-103            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-103-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
-104            android:excludeFromRecents="true"
-104-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
-105            android:exported="true"
-105-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
-106            android:launchMode="singleTask"
-106-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
-107            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-107-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
-108            <intent-filter>
-108-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
-109                <action android:name="android.intent.action.VIEW" />
-109-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
-109-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
-110
-111                <category android:name="android.intent.category.DEFAULT" />
-111-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
-111-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
-112                <category android:name="android.intent.category.BROWSABLE" />
-112-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
-112-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+88-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:56:9-58:40
+89            android:name="com.sembada.aponk.Login"
+89-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:57:13-51
+90            android:exported="false" />
+90-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:58:13-37
+91        <activity
+91-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:59:9-67:20
+92            android:name="com.sembada.aponk.MainActivity"
+92-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:60:13-58
+93            android:exported="true" >
+93-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:61:13-36
+94            <intent-filter>
+94-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:62:13-66:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:63:17-69
+95-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:63:25-66
+96
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:65:17-77
+97-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:65:27-74
+98            </intent-filter>
+99        </activity>
+100        <activity
+100-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:68:9-72:57
+101            android:name="com.sembada.aponk.Dashboard.CaptureAct"
+101-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:69:13-66
+102            android:screenOrientation="portrait"
+102-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:70:13-49
+103            android:stateNotNeeded="true"
+103-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:71:13-42
+104            android:theme="@style/zxing_CaptureTheme" />
+104-->/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/src/main/AndroidManifest.xml:72:13-54
+105        <activity
+105-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+106            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+106-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+107            android:excludeFromRecents="true"
+107-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+108            android:exported="true"
+108-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+109            android:launchMode="singleTask"
+109-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+110-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+111            <intent-filter>
+111-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+112-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
 113
-114                <data
-114-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
-115                    android:host="firebase.auth"
-115-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
-116                    android:path="/"
-116-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
-117                    android:scheme="genericidp" />
-117-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
-118            </intent-filter>
-119        </activity>
-120        <activity
-120-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
-121            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-121-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
-122            android:excludeFromRecents="true"
-122-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
-123            android:exported="true"
-123-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
-124            android:launchMode="singleTask"
-124-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
-125            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-125-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
-126            <intent-filter>
-126-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
-127                <action android:name="android.intent.action.VIEW" />
-127-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
-127-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
-128
-129                <category android:name="android.intent.category.DEFAULT" />
-129-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
-129-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
-130                <category android:name="android.intent.category.BROWSABLE" />
-130-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
-130-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+114-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+115-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+116
+117                <data
+117-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+118                    android:host="firebase.auth"
+118-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+119                    android:path="/"
+119-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+120                    android:scheme="genericidp" />
+120-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+121            </intent-filter>
+122        </activity>
+123        <activity
+123-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+124            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+124-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+125            android:excludeFromRecents="true"
+125-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+126            android:exported="true"
+126-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+127            android:launchMode="singleTask"
+127-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+128-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+129            <intent-filter>
+129-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+130                <action android:name="android.intent.action.VIEW" />
+130-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+130-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
 131
-132                <data
-132-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
-133                    android:host="firebase.auth"
-133-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
-134                    android:path="/"
-134-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
-135                    android:scheme="recaptcha" />
-135-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
-136            </intent-filter>
-137        </activity>
-138
-139        <service
-139-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
-140            android:name="com.google.firebase.components.ComponentDiscoveryService"
-140-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
-141            android:directBootAware="true"
-141-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
-142            android:exported="false" >
-142-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
-143            <meta-data
-143-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
-144                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-144-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
-145                android:value="com.google.firebase.components.ComponentRegistrar" />
-145-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+132-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+133-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+134
+135                <data
+135-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+136                    android:host="firebase.auth"
+136-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+137                    android:path="/"
+137-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+138                    android:scheme="recaptcha" />
+138-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+139            </intent-filter>
+140        </activity>
+141
+142        <service
+142-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+143            android:name="com.google.firebase.components.ComponentDiscoveryService"
+143-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
+144            android:directBootAware="true"
+144-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+145            android:exported="false" >
+145-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
 146            <meta-data
-146-->[com.google.firebase:firebase-database:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/140de4f3feca5f64b7f41e971d448168/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
-147                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-147-->[com.google.firebase:firebase-database:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/140de4f3feca5f64b7f41e971d448168/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+146-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+147                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+147-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
 148                android:value="com.google.firebase.components.ComponentRegistrar" />
-148-->[com.google.firebase:firebase-database:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/140de4f3feca5f64b7f41e971d448168/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+148-->[com.google.firebase:firebase-auth:21.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ca3b1677622ae6659d1b2f02a6938979/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
 149            <meta-data
-149-->[com.google.firebase:firebase-storage:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/546a4bd6aa8270cb9c38b498a9d8e7d0/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
-150                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-150-->[com.google.firebase:firebase-storage:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/546a4bd6aa8270cb9c38b498a9d8e7d0/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+149-->[com.google.firebase:firebase-database:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/140de4f3feca5f64b7f41e971d448168/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+150                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+150-->[com.google.firebase:firebase-database:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/140de4f3feca5f64b7f41e971d448168/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
 151                android:value="com.google.firebase.components.ComponentRegistrar" />
-151-->[com.google.firebase:firebase-storage:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/546a4bd6aa8270cb9c38b498a9d8e7d0/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
-152        </service> <!-- Needs to be explicitly declared on P+ -->
-153        <uses-library
-153-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/8b4013fbd1569e10db1edb9b810b2564/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
-154            android:name="org.apache.http.legacy"
-154-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/8b4013fbd1569e10db1edb9b810b2564/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
-155            android:required="false" />
-155-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/8b4013fbd1569e10db1edb9b810b2564/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
-156
-157        <activity
-157-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
-158            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-158-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
-159            android:clearTaskOnLaunch="true"
-159-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
-160            android:screenOrientation="sensorLandscape"
-160-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
-161            android:stateNotNeeded="true"
-161-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
-162            android:theme="@style/zxing_CaptureTheme"
-162-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
-163            android:windowSoftInputMode="stateAlwaysHidden" />
-163-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
-164
-165        <provider
-165-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
-166            android:name="com.google.firebase.provider.FirebaseInitProvider"
-166-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
-167            android:authorities="com.example.aponk.firebaseinitprovider"
-167-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
-168            android:directBootAware="true"
-168-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
-169            android:exported="false"
-169-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
-170            android:initOrder="100" />
-170-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
-171
-172        <activity
-172-->[com.google.android.gms:play-services-base:18.0.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/70db23a44516025620a74d5108bf09e4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-173            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-173-->[com.google.android.gms:play-services-base:18.0.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/70db23a44516025620a74d5108bf09e4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-174            android:exported="false"
-174-->[com.google.android.gms:play-services-base:18.0.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/70db23a44516025620a74d5108bf09e4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-175            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-175-->[com.google.android.gms:play-services-base:18.0.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/70db23a44516025620a74d5108bf09e4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-176
-177        <meta-data
-177-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/f9fd743e256c3f4d02c5a7aa721827ea/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-178            android:name="com.google.android.gms.version"
-178-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/f9fd743e256c3f4d02c5a7aa721827ea/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-179            android:value="@integer/google_play_services_version" />
-179-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/f9fd743e256c3f4d02c5a7aa721827ea/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-180
-181        <provider
-181-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-182            android:name="androidx.startup.InitializationProvider"
-182-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-183            android:authorities="com.example.aponk.androidx-startup"
-183-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-184            android:exported="false" >
-184-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-185            <meta-data
-185-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-186                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-186-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-187                android:value="androidx.startup" />
-187-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+151-->[com.google.firebase:firebase-database:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/140de4f3feca5f64b7f41e971d448168/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-storage:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/546a4bd6aa8270cb9c38b498a9d8e7d0/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+153                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+153-->[com.google.firebase:firebase-storage:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/546a4bd6aa8270cb9c38b498a9d8e7d0/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-storage:20.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/546a4bd6aa8270cb9c38b498a9d8e7d0/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+155        </service> <!-- Needs to be explicitly declared on P+ -->
+156        <uses-library
+156-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/8b4013fbd1569e10db1edb9b810b2564/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+157            android:name="org.apache.http.legacy"
+157-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/8b4013fbd1569e10db1edb9b810b2564/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+158            android:required="false" />
+158-->[com.google.android.gms:play-services-maps:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/8b4013fbd1569e10db1edb9b810b2564/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+159
+160        <activity
+160-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+161            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+161-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+162            android:clearTaskOnLaunch="true"
+162-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+163            android:screenOrientation="sensorLandscape"
+163-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+164            android:stateNotNeeded="true"
+164-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+165            android:theme="@style/zxing_CaptureTheme"
+165-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+166            android:windowSoftInputMode="stateAlwaysHidden" />
+166-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/71bd3d42aa6878ba0e3b35e3da3a7504/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+167
+168        <provider
+168-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+169            android:name="com.google.firebase.provider.FirebaseInitProvider"
+169-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+170            android:authorities="com.example.aponk.firebaseinitprovider"
+170-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+171            android:directBootAware="true"
+171-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+172            android:exported="false"
+172-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+173            android:initOrder="100" />
+173-->[com.google.firebase:firebase-common:20.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/12b7fbdbf5587876954d3aaeb17e79af/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+174
+175        <activity
+175-->[com.google.android.gms:play-services-base:18.0.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/70db23a44516025620a74d5108bf09e4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+176            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+176-->[com.google.android.gms:play-services-base:18.0.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/70db23a44516025620a74d5108bf09e4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-base:18.0.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/70db23a44516025620a74d5108bf09e4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.android.gms:play-services-base:18.0.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/70db23a44516025620a74d5108bf09e4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+179
+180        <meta-data
+180-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/f9fd743e256c3f4d02c5a7aa721827ea/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+181            android:name="com.google.android.gms.version"
+181-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/f9fd743e256c3f4d02c5a7aa721827ea/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+182            android:value="@integer/google_play_services_version" />
+182-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/f9fd743e256c3f4d02c5a7aa721827ea/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+183
+184        <provider
+184-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+185            android:name="androidx.startup.InitializationProvider"
+185-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+186            android:authorities="com.example.aponk.androidx-startup"
+186-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+187            android:exported="false" >
+187-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 188            <meta-data
-188-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ab7211f8cd5f28bcd5c9ba93650ea8ee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-189                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-189-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ab7211f8cd5f28bcd5c9ba93650ea8ee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+188-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+189                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+189-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 190                android:value="androidx.startup" />
-190-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ab7211f8cd5f28bcd5c9ba93650ea8ee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-191        </provider>
-192    </application>
-193
-194</manifest>
+190-->[androidx.emoji2:emoji2:1.2.0] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/7e6139e77ff2f7222e7f273c2092baa5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+191            <meta-data
+191-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ab7211f8cd5f28bcd5c9ba93650ea8ee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+192                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+192-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ab7211f8cd5f28bcd5c9ba93650ea8ee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+193                android:value="androidx.startup" />
+193-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ariefsetyonugroho/.gradle/caches/transforms-3/ab7211f8cd5f28bcd5c9ba93650ea8ee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+194        </provider>
+195    </application>
+196
+197</manifest>
