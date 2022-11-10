@@ -60,12 +60,26 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
     private DatabaseReference database, totalref, total, total1, total2;
     private int totalvalue;
-    private int totalvalue1;
-    private int totalvalue2;
-    private int totalvalue3;
-    private int totalvalue4;
-    private int totalvalue5;
-    private int totalvalue6;
+    private int totalvalue1 = 0;
+    private int totalvalue2 = 0;
+    private int totalvalue3 = 0;
+    private int totalvalue4 = 0;
+    private int totalvalue5 = 0;
+    private int totalvalue6 = 0;
+    private int totalvalue7 = 0;
+    private int totalvalue8 = 0;
+    private int totalvalue9 = 0;
+    private int totalvalue10 = 0;
+    private int totalvalue11 = 0;
+    private int totalvalue12 = 0;
+    private int totalvalue13 = 0;
+    private int totalvalue14 = 0;
+    private int totalvalue15 = 0;
+    private int totalvalue16 = 0;
+    private int totalvalue17 = 0;
+    private int totalvalue18 = 0;
+    private int totalvalue19 = 0;
+    private int totalvalue20 = 0;
     SimpleDateFormat tanggal;
     DatePickerDialog tglDialog;
 
@@ -306,19 +320,19 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                 if (snapshot.exists())
                 {
-                    totalvalue3 = (int) snapshot.getChildrenCount();
+                    totalvalue7 = (int) snapshot.getChildrenCount();
                     total.child("Laki-Laki").addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                int a = totalvalue3 - totalvalue6;
+                                totalvalue8 = (int) snapshot.getChildrenCount();
+                                int a = totalvalue7 - totalvalue8;
                                 lakilaki.setText(String.valueOf(a));
                             }
                             else {
-                                lakilaki.setText(String.valueOf(totalvalue3));
+                                lakilaki.setText(String.valueOf(totalvalue7));
                             }
                         }
                         @Override
@@ -333,8 +347,8 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                lakilaki.setText(String.valueOf(totalvalue6));
+                                totalvalue8 = (int) snapshot.getChildrenCount();
+                                lakilaki.setText(String.valueOf(totalvalue8));
                             }
                             else {
                                 lakilaki.setText("0");
@@ -357,18 +371,18 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                 if (snapshot.exists())
                 {
-                    totalvalue3 = (int) snapshot.getChildrenCount();
+                    totalvalue9 = (int) snapshot.getChildrenCount();
                     total.child("Perempuan").addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                int a = totalvalue3 - totalvalue6;
+                                totalvalue10 = (int) snapshot.getChildrenCount();
+                                int a = totalvalue9 - totalvalue10;
                                 perempuan.setText(String.valueOf(a));
                             }
                             else {
-                                perempuan.setText(String.valueOf(totalvalue3));
+                                perempuan.setText(String.valueOf(totalvalue9));
                             }
                         }
                         @Override
@@ -382,8 +396,8 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                perempuan.setText(String.valueOf(totalvalue6));
+                                totalvalue10 = (int) snapshot.getChildrenCount();
+                                perempuan.setText(String.valueOf(totalvalue10));
                             }
                             else {
                                 perempuan.setText("0");
@@ -401,25 +415,25 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
             }
         });
         //Jumlah Anak-anak
-        totalref.child("Anak-Anak").addValueEventListener(new ValueEventListener() {
+        totalref.child("Anak-anak").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                 if (snapshot.exists())
                 {
-                    totalvalue3 = (int) snapshot.getChildrenCount();
-                    total.child("Anak-Anak").addValueEventListener(new ValueEventListener() {
+                    totalvalue11 = (int) snapshot.getChildrenCount();
+                    total.child("Anak-anak").addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                int a = totalvalue3 - totalvalue6;
+                                totalvalue12 = (int) snapshot.getChildrenCount();
+                                int a = totalvalue11 - totalvalue12;
                                 anakanak.setText(String.valueOf(a));
                             }
                             else {
-                                anakanak.setText(String.valueOf(totalvalue3));
+                                anakanak.setText(String.valueOf(totalvalue11));
                             }
                         }
 
@@ -430,14 +444,14 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
                     });
                 }
                 else {
-                    total.child("Anak-Anak").addValueEventListener(new ValueEventListener() {
+                    total.child("Anak-anak").addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                anakanak.setText(String.valueOf(totalvalue6));
+                                totalvalue12 = (int) snapshot.getChildrenCount();
+                                anakanak.setText(String.valueOf(totalvalue12));
                             }
                             else {
                                 anakanak.setText("0");
@@ -462,19 +476,19 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                 if (snapshot.exists())
                 {
-                    totalvalue3 = (int) snapshot.getChildrenCount();
+                    totalvalue13 = (int) snapshot.getChildrenCount();
                     total.child("Dewasa").addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                int a = totalvalue3 - totalvalue6;
+                                totalvalue14 = (int) snapshot.getChildrenCount();
+                                int a = totalvalue13 - totalvalue14;
                                 dewasa.setText(String.valueOf(a));
                             }
                             else {
-                                dewasa.setText(String.valueOf(totalvalue3));
+                                dewasa.setText(String.valueOf(totalvalue13));
                             }
                         }
 
@@ -491,8 +505,8 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                dewasa.setText(String.valueOf(totalvalue6));
+                                totalvalue14 = (int) snapshot.getChildrenCount();
+                                dewasa.setText(String.valueOf(totalvalue14));
                             }
                             else {
                                 dewasa.setText("0");
@@ -518,19 +532,19 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                 if (snapshot.exists())
                 {
-                    totalvalue3 = (int) snapshot.getChildrenCount();
+                    totalvalue15 = (int) snapshot.getChildrenCount();
                     total.child("Lansia").addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                int a = totalvalue3 - totalvalue6;
+                                totalvalue16 = (int) snapshot.getChildrenCount();
+                                int a = totalvalue15 - totalvalue16;
                                 lansia.setText(String.valueOf(a));
                             }
                             else {
-                                lansia.setText(String.valueOf(totalvalue3));
+                                lansia.setText(String.valueOf(totalvalue15));
                             }
                         }
 
@@ -547,8 +561,8 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                lansia.setText(String.valueOf(totalvalue6));
+                                totalvalue16 = (int) snapshot.getChildrenCount();
+                                lansia.setText(String.valueOf(totalvalue16));
                             }
                             else {
                                 lansia.setText("0");
@@ -572,18 +586,18 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                 if (snapshot.exists())
                 {
-                    totalvalue3 = (int) snapshot.getChildrenCount();
+                    totalvalue17 = (int) snapshot.getChildrenCount();
                     total.child("WNI").addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                int a = totalvalue3 - totalvalue6;
+                                totalvalue18 = (int) snapshot.getChildrenCount();
+                                int a = totalvalue17 - totalvalue18;
                                 wni.setText(String.valueOf(a));
                             }
                             else {
-                                wni.setText(String.valueOf(totalvalue3));
+                                wni.setText(String.valueOf(totalvalue17));
                             }
                         }
                         @Override
@@ -599,8 +613,8 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                wni.setText(String.valueOf(totalvalue6));
+                                totalvalue18 = (int) snapshot.getChildrenCount();
+                                wni.setText(String.valueOf(totalvalue18));
                             }
                             else {
                                 wni.setText("0");
@@ -626,19 +640,19 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                 if (snapshot.exists())
                 {
-                    totalvalue3 = (int) snapshot.getChildrenCount();
+                    totalvalue19 = (int) snapshot.getChildrenCount();
                     total.child("WNA").addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                int a = totalvalue3 - totalvalue6;
+                                totalvalue20 = (int) snapshot.getChildrenCount();
+                                int a = totalvalue19 - totalvalue20;
                                 wna.setText(String.valueOf(a));
                             }
                             else {
-                                wna.setText(String.valueOf(totalvalue3));
+                                wna.setText(String.valueOf(totalvalue19));
                             }
                         }
                         @Override
@@ -653,8 +667,8 @@ public class Dashboard extends AppCompatActivity implements OnMapReadyCallback {
 
                             if (snapshot.exists())
                             {
-                                totalvalue6 = (int) snapshot.getChildrenCount();
-                                wna.setText(String.valueOf(totalvalue6));
+                                totalvalue20 = (int) snapshot.getChildrenCount();
+                                wna.setText(String.valueOf(totalvalue20));
                             }
                             else {
                                 wna.setText("0");
