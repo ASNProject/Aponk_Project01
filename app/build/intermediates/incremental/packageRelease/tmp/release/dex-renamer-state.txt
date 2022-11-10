@@ -1,7 +1,7 @@
-#Thu Nov 03 08:33:11 WIB 2022
-base.1=/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+#Thu Nov 10 14:41:48 WIB 2022
+base.1=/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
 path.1=classes2.dex
-base.0=/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+base.0=/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="/Users/ariefsetyonugroho/AndroidStudioProjects/Aponk/app"
+    dir="/Users/ariefsetyonugroho/Documents/GitHub/Aponk_Project01/app"
     name=":app"
     type="APP"
     maven="Aponk:app:"
